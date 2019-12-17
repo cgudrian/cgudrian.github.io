@@ -1,4 +1,6 @@
-# This is a headline
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-And this is a happy paragraph.
-
+layout: home
+---
