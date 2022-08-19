@@ -7,8 +7,11 @@ authors = ["Christian Gudrian <cgu@ivu.de>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Sphinx = "^5.1.1"
+furo = "^2022.6.21"
+sphinx-autobuild = "^2021.3.14"
 
 [tool.poetry.dev-dependencies]
+autopep8 = "^1.7.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
