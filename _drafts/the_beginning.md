@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Introduction
+title: Der Anfang
+tags: foo bar baz
 ---
 
 I'm getting old. I tend to forget things. These are my notes. They might be
