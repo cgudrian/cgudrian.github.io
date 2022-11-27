@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Traits sind nicht wie Interfaces
-tags: rust traits
+title: Traits sind keine Interfaces
+tags: Programmierung Rust
 ---
