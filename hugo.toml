@@ -1,4 +1,40 @@
 baseURL = 'https://blog.gudrian.org/'
-languageCode = 'en-us'
+languageCode = 'en'
 title = 'My New Hugo Site!!!'
 theme = 'gokarna'
+enableRobotsTXT = true
+enableEmoji = true
+
+copyright = "Yes"
+
+[params]
+  showPostsOnHomePage = "recent"
+
+  socialIcons = [
+    {name = "mastodon", url = "https://social.tchncs.de/@cgudrian"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/christian-gudrian-80756a82"},
+    {name = "email", url = "mailto:blog@gudrian.org"}
+  ]
+
+  showBackToTopButton = true
+  togglePreviousAndNextButtons = "true"
+  dateFormat = "January 2, 2006"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 7

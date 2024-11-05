@@ -1,6 +1,9 @@
-+++
-date = '2024-11-04T21:51:56+01:00'
-title = 'My First Post'
-+++
+---
+date: 2024-10-01
+title: "Wut?"
+type: "post"
+---
 
 This is my first post.
+
+Warum sehe ich ihn nicht?
