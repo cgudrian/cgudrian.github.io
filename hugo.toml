@@ -5,8 +5,6 @@ theme = 'gokarna'
 enableRobotsTXT = true
 enableEmoji = true
 
-copyright = "Yes"
-
 [params]
   showPostsOnHomePage = "recent"
 
@@ -19,6 +17,10 @@ copyright = "Yes"
   showBackToTopButton = true
   togglePreviousAndNextButtons = "true"
   dateFormat = "January 2, 2006"
+
+  customFooterHTML = '''
+    <small><a href="/legal/">Legal Notice</a></small>
+  '''
 
 [menu]
   [[menu.main]]
