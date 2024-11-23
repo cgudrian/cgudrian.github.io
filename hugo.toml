@@ -1,6 +1,6 @@
 baseURL = 'https://blog.gudrian.org/'
 languageCode = 'en'
-title = 'My New Hugo Site!!!'
+title = 'Nørdlicht'
 theme = 'gokarna'
 enableRobotsTXT = true
 enableEmoji = true
